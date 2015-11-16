@@ -8,7 +8,7 @@ public class downloader {
 	public static void main(String[] args) throws IOException {
 		
 		String fileName = "file.txt";
-		String url = "http://shayconcepts.com";
+		String url = "";
 		URL link = new URL(url);
 		InputStream in = new BufferedInputStream(link.openStream());
 		ByteArrayOutputStream out = new ByteArrayOutputStream();
